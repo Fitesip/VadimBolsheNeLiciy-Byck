@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/logo.svg" alt="">
+        <img src="images/logotext.svg" alt="" class="logotext">
+    </div>
+    <div class="pages">
+        <a href="index.html">Главная</a>
+        <a href="pages/about.html">О нас</a>
+        <a href="pages/services.html">Обслуживание</a>
+        <a href="pages/menu.html">Меню</a>
+        <a href="pages/contacts.html">Контакты</a>
+        <button class="order bookingPopupButton">Закажите столик</button>
+    </div>
+</header>
+<div class="popupContainer">
+    <div class="bookingPopup">
+        <img src="images/x.svg" alt="" class="x">
+        <h2>Забронируйте столик онлайн</h2>
+        <div class="formContainerPopup">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваша почта">
+            <input type="text" placeholder="Дата и Время">
+            <input type="text" placeholder="Кол-во людей">
+            <textarea placeholder="Специальный запрос"></textarea>
+            <button>Бронируйте прямо сейчас</button>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="promoBlock">
+        <div class="textPromoBlock">
+            <h1>Наслаждайтесь Нашим <br>Вкусным блюдом</h1>
+            <button class="bookingPopupButton">Закажите столик</button>
+        </div>
+        <img src="images/tarelka.png" alt="" class="tarelka">
+    </div>
+    <div class="cards">
+        <div class="card">
+            <h2>Мастер Повара</h2>
+            <p>Мастер повара с многолетним опытом создает уникальные блюда, используя лучшие ингредиенты.</p>
+        </div>
+        <div class="card">
+            <h2>Качественная еда</h2>
+            <p>Это основа здоровья и хорошего самочувствия, она обеспечивает организм необходимыми питательными веществами.</p>
+        </div>
+        <div class="card">
+            <h2>Онлайн Заказ</h2>
+            <p>Это отличный способ увеличить количество клиентов, повысить уровень сервиса и расширить рынок.</p>
+        </div>
+        <div class="card">
+            <h2>Обслуживание 24/7</h2>
+            <p>Это возможность удовлетворить потребности клиентов в любое время суток.</p>
+        </div>
+    </div>
+    <div class="about">
+        <div class="imgBlock">
+            <div class="miniImgBlock firstMiniImgBlock">
+                <img src="images/restoranImage1.png" alt="" class="miniImgBlockImg bigImg">
+                <img src="images/restoranImage2.png" alt="" class="miniImgBlockImg smallImg">
+            </div>
+            <div class="miniImgBlock">
+                <img src="images/restoranImage3.png" alt="" class="miniImgBlockImg smallImg">
+                <img src="images/restoranImage4.png" alt="" class="miniImgBlockImg bigImg">
+            </div>
+        </div>
+        <div class="textBlock">
+            <h1>О нас -</h1>
+            <h2>Добро пожаловать в Ресторан БЫК</h2>
+            <p>Мы предлагаем разнообразные блюда итальянской, французской и русской кухни.
+                Наша атмосфера уютная, и здесь всегда звучит живая музыка по выходным.</p>
+            <p>Наши официанты готовы помочь вам с выбором и ответить на любые вопросы о меню. Не забудьте попробовать наш фирменный коктейль или вино из местных виноделен!</p>
+            <div class="pluses">
+                <div class="plus">
+                    <h1>15</h1>
+                    <p>Многолетний опыт работы</p>
+                </div>
+                <div class="plus">
+                    <h1>50</h1>
+                    <p>Популярные Шеф-повара</p>
+                </div>
+            </div>
+            <button>Читать дальше</button>
+        </div>
+    </div>
+    <div class="popularMenu">
+        <h1>- Меню блюд -</h1>
+        <h2>Самые популярные блюда</h2>
+        <div class="menuPages">
+            <div class="menuPagesSelector">
+                <div class="menuPagesSelect active">
+                    <p>Популярные Завтраки</p>
+                </div>
+                <div class="menuPagesSelect">
+                    <p>Популярные Обеды</p>
+                </div>
+                <div class="menuPagesSelect">
+                    <p>Популярные Ужины</p>
+                </div>
+            </div>
+            <div class="menuPagesContainer">
+                <div class="menuPage">
+                    <div class="menuElement">
+                    <img src="images/bludo1.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясная тарелка</h3>
+                            <p>2700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Сделана из разного сорта мяса</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo2.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Рамен</h3>
+                            <p>475 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Сытный суп на наваристом бульоне с пшеничной лапшой</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo3.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Пицца</h3>
+                            <p>700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Итальянское блюдо, которое представляет собой открытую лепёшку, покрытую сыром, томатами и другими ингредиентами</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo4.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Бифштрекс</h3>
+                            <p>1700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Классическое мясное блюдо</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo5.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Салат Цезарь</h3>
+                            <p>650 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Овощной салат. Популярное блюдо американской кухни.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo6.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясо с картофелем фри</h3>
+                            <p>1100 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Стир-фрай из говядины и картофеля фри.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo7.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Пицца</h3>
+                            <p>800 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Итальянское блюдо, которое представляет собой открытую лепёшку, покрытую сыром, томатами и другими ингредиентами</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo8.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясо по-французски</h3>
+                            <p>1300 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Это нежная, сочная свинина, запечённая под сыром, с картофелем и луком. </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="menuPage">
+                    <div class="menuElement">
+                    <img src="images/bludo1.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясная тарелка</h3>
+                            <p>2700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Сделана из разного сорта мяса</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo2.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Рамен</h3>
+                            <p>475 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Сытный суп на наваристом бульоне с пшеничной лапшой</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo3.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Пицца</h3>
+                            <p>700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Итальянское блюдо, которое представляет собой открытую лепёшку, покрытую сыром, томатами и другими ингредиентами</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo4.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Бифштрекс</h3>
+                            <p>1700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Классическое мясное блюдо</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo5.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Салат Цезарь</h3>
+                            <p>650 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Овощной салат. Популярное блюдо американской кухни.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo6.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясо с картофелем фри</h3>
+                            <p>1100 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Стир-фрай из говядины и картофеля фри.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo7.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Пицца</h3>
+                            <p>800 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Итальянское блюдо, которое представляет собой открытую лепёшку, покрытую сыром, томатами и другими ингредиентами</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo8.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясо по-французски</h3>
+                            <p>1300 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Это нежная, сочная свинина, запечённая под сыром, с картофелем и луком. </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="menuPage">
+                    <div class="menuElement">
+                    <img src="images/bludo1.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясная тарелка</h3>
+                            <p>2700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Сделана из разного сорта мяса</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo2.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Рамен</h3>
+                            <p>475 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Сытный суп на наваристом бульоне с пшеничной лапшой</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo3.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Пицца</h3>
+                            <p>700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Итальянское блюдо, которое представляет собой открытую лепёшку, покрытую сыром, томатами и другими ингредиентами</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo4.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Бифштрекс</h3>
+                            <p>1700 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Классическое мясное блюдо</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo5.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Салат Цезарь</h3>
+                            <p>650 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Овощной салат. Популярное блюдо американской кухни.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo6.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясо с картофелем фри</h3>
+                            <p>1100 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Стир-фрай из говядины и картофеля фри.</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo7.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Пицца</h3>
+                            <p>800 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Итальянское блюдо, которое представляет собой открытую лепёшку, покрытую сыром, томатами и другими ингредиентами</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="menuElement">
+                    <img src="images/bludo8.png" alt="" class="menuElementImg">
+                    <div class="menuElementInfo">
+                        <div class="upperElementInfo">
+                            <h3>Мясо по-французски</h3>
+                            <p>1300 P</p>
+                        </div>
+                        <div class="lowerElementInfo">
+                            <p>Это нежная, сочная свинина, запечённая под сыром, с картофелем и луком. </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="booking">
+        <img src="images/restoranImage5.png" alt="">
+        <div class="formBlock">
+            <h1>Бронирование -</h1>
+            <h2>Забронируйте столик онлайн</h2>
+            <div class="formContainer">
+                <input type="text" placeholder="Ваше имя">
+                <input type="text" placeholder="Ваша почта">
+                <input type="text" placeholder="Дата и Время">
+                <input type="text" placeholder="Кол-во людей">
+                <textarea placeholder="Специальный запрос"></textarea>
+                <button>Бронируйте прямо сейчас</button>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <h1>- Члены команды -</h1>
+        <h2>Наши Шэф-Повара</h2>
+        <div class="teamContainer">
+            <div class="chef">
+                <img src="images/povar1.png" alt="" class="chefImg">
+                <h3>Гордон Рамзи</h3>
+                <p>британский шеф-повар</p>
+            </div>
+            <div class="chef">
+                <img src="images/povar2.png" alt="" class="chefImg">
+                <h3>Ферран Адриа</h3>
+                <p>итальянский шеф-повар</p>
+            </div>
+            <div class="chef">
+                <img src="images/povar3.png" alt="" class="chefImg">
+                <h3>Жоэль Робюшон</h3>
+                <p>французский шеф-повар</p>
+            </div>
+            <div class="chef">
+                <img src="images/povar4.png" alt="" class="chefImg">
+                <h3>Пол Голливуд</h3>
+                <p>британский шеф-повар</p>
+            </div>
+        </div>
+    </div>
+    <div class="feedbacks">
+        <h1>- Отзывы -</h1>
+        <h2>Наши клиенты говорят!!!</h2>
+        <div class="feedbacksContainer">
+            <div class="feedback">
+                <img src="images/kavichki.svg" alt="">
+                <p>Еда просто потрясающая! Обязательно вернусь. Блюда всегда свежие и вкусные. Лучший ресторан в городе!</p>
+                <h2>Александр</h2>
+            </div>
+            <div class="feedback">
+                <img src="images/kavichki.svg" alt="">
+                <p>Лучший ресторан, в котором я когда-либо был! Каждый раз удивляет высоким качеством блюд. Отличный сервис и уютная атмосфера. Рекомендую всем!</p>
+                <h2>Антон</h2>
+            </div>
+            <div class="feedback">
+                <img src="images/kavichki.svg" alt="">
+                <p>Каждое блюдо — шедевр! Не могу дождаться следующего визита. Прекрасный выбор вин и десертов! Уходила с полным желудком и отличным настроением.</p>
+                <h2>Евгения</h2>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="linksContainer">
+        <div class="links">
+            <h1>Компания -</h1>
+            <a href="">О нас</a>
+            <a href="">Свяжитесь с Нами</a>
+            <a href="">Бронирование</a>
+            <a href="">Политика Конфиденциальности</a>
+            <a href="">Правила и Условия</a>
+        </div>
+        <div class="links">
+            <h1>Контакты -</h1>
+            <p>улица Якубовича, 26 Санкт-Петеребруг</p>
+            <p>+7 911 111-11-11</p>
+            <p>info@example.com</p>
+        </div>
+        <div class="links">
+            <h1>Открытие -</h1>
+            <p>Понедельник - Суббота 9:00 - 21:00</p>
+            <p>Воскресенье 10:00 - 20:00</p>
+        </div>
+        <div class="links">
+            <h1>Рассылка -</h1>
+            <p>Здесь будет какой-то текст</p>
+            <div class="miniForm">
+                <input type="text" placeholder="Ваша Почта" id="pochta">
+                <button onclick="pochta()">Отправить</button>
+            </div>
+            <p id="sub">Вы подписались на рассылку!</p>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Ресторан Бык, все права защищены.</p>
+        <div class="miniLinks">
+            <a href="">Главная</a>
+            <hr>
+            <a href="">Файлы</a>
+            <hr>
+            <a href="">Помощь</a>
+        </div>
+    </div>
+</footer>
+<script src="scripts/slider.js"></script>
+<script src="scripts/popup.js"></script>
+<script src="scripts/pochta.js"></script>
+</body>
+</html>
